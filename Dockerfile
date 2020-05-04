@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8083
-ADD target/CalculatorDevOps.jar CalculatorDevOps.jar
-ENTRYPOINT ["java", "-jar", "/CalculatorDevOps.jar"]
+ADD target/calculator.jar calculator.jar
+ENTRYPOINT ["java", "-jar", "/calculator.jar"]
